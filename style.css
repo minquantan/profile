@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Flamenco:wght@300;400&display=swap');
+
+#container {
+  /* width: 1200px;
+  margin: 0 auto; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #FBF5F3;
+}
+
+#intro {
+  margin: 20px;
+  padding: 20px;
+  width: 1200px;
+  height: 364px;
+  display: inline-block;
+  position: relative;
+}
+
+#intro > div {
+  width: 400px;
+  /* margin: auto;
+  float: left; */
+  position: absolute;
+  left: 114px;
+  bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#intro > div > p {
+  font-size: 24px;
+}
+
+#red-link-btn{
+  color: white;
+  background-color: #F67E7D;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 10%em;
+  position: absolute;
+  bottom: 14px;
+  left: 114px;
+}
+
+#minch-pic {
+  width: 26%;
+  height: auto;
+  border-radius: 50%;
+  position: absolute;
+  right: 68px;
+  bottom: 34px;
+}
+
+.card {
+  margin: 12px;
+  padding: 4px;
+  width: 1200px;
+  height: 154px;
+  box-shadow: 1px 1px 2px #283D3B;
+  text-align: center;
+}
+
+.card:hover {
+  border-style: solid;
+  border-color: #197278;
+  border-width: 1px;
+}
+
+
+h1, h2, p {
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Flamenco', cursive;
+  font-weight: 300;
+  font-size: 68px;
+  position: absolute;
+  left: 114px;
+}
+
+p{
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: black;
+}
+
+h2 {
+  font-family: 'Flamenco', cursive;
+  font-weight: 300;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+a {
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #B6244F;
+}
+
+#footer {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#footer > ul {
+  list-style-type: none;
+ }
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
